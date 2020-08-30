@@ -38,7 +38,7 @@ Step 15: Frost and Decorate
 
 ## Pseudocode
 
-**Pseudcode** is a non-code way of explaining in "English" your thought process in executing a giving algorithm. 
+**Pseudcode** is a non-code way of explaining in "English" your thought process in attempting to solve a given problem. 
 
 #### Write a function to find the largest value in an array 
 
