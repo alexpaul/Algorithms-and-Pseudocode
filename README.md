@@ -135,6 +135,7 @@ countVowels("Hello there! How's it going?") // 8
   
 </details> 
 
+</br> 
 
 #### Challenge 2
 
