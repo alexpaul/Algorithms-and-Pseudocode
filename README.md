@@ -60,7 +60,7 @@ Some clarification questions can be:
 2. Can I return nil if the array is empty?
 
 <details>
-  <summary>Pseudocode converted to Code</summary>
+  <summary>Pseudocode above converted to compilable code.</summary>
   
 ```swift 
 func findLargest(_ arr: [Int]) -> Int? {
