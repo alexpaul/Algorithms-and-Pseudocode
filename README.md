@@ -2,7 +2,7 @@
 
 ## Algorithms 
 
-**Algorithms** are actions and steps or directions involved in solving a function or a part of a program. 
+**Algorithms** are actions and steps or directions involved in solving a function or a part of a program. The efficiency of a chosen algorithm is calculated using Big O notation, namely runtime and space complexity. 
 
 In the example below if we are to use the example of making a cake, the algorithm wouuld be a series of steps as listed. 
 
