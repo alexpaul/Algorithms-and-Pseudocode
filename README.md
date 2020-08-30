@@ -29,7 +29,7 @@ Step 15: Frost and Decorate
 In this example if we are to describe to someone the algorithm to search a photo in a photo search application, the algorithm would be similar to the steps below. 
 
 1. Step 1 Write an API Client class 
-2. Setp 2 Write a function within that class
+2. Step 2 Write a function within that class
 3. Step 3 Add the following to the function's body
 4. Step 4 Add the endpoint needed to query the Web API 
 5. Step 5 Create a URL using the endpoint URL 
