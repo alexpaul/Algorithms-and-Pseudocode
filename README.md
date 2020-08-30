@@ -24,9 +24,9 @@ Step 13: Assemble the Cake
 Step 14: Add the First Coat of Frosting  
 Step 15: Frost and Decorate  
 
-In this example if we are to describe to someone the algorithm to search a photo in a photo search application, the algorithm would be similar to the steps below. 
-
 #### Example: Search for a Photo from Pixabay 
+
+In this example if we are to describe to someone the algorithm to search a photo in a photo search application, the algorithm would be similar to the steps below. 
 
 1. Step 1 Write an API Client class 
 2. Setp 2 Write a function within that class
