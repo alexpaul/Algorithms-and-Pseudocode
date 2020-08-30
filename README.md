@@ -59,6 +59,25 @@ Some clarification questions can be:
 1. Can the array be empty? 
 2. Can I return nil if the array is empty?
 
+<details>
+  <summary>Pseudocode converted to Code</summary>
+  
+```swift 
+func findLargest(_ arr: [Int]) -> Int? {
+  guard var largest = arr.first else {
+    return nil
+  }
+  for currentNum in arr {
+    if currentNum > largest {
+      largest = currentNum
+    }
+  }
+  return largest
+}
+```
+  
+</details> 
+
 ## Challenge
 
 Write pseudocode for the following questions: 
