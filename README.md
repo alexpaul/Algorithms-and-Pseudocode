@@ -87,6 +87,8 @@ Reminder:
 * Discuss clarification questions. 
 * Discuss runtime and space complexity of your solution. 
 
+</br> 
+
 #### Challenge 1 
 
 Write a function that returns how many vowels are in a String
@@ -183,6 +185,7 @@ productIgnoreZeros([4, 0, 8, 3, 0]) // 96
 
 </details> 
 
+</br> 
 
 #### Challenge 3
 
@@ -205,6 +208,7 @@ productIgnoreZeros([4, 0, 8, 3, 0]) // 96
 
 </details> 
 
+</br> 
 
 #### Challenge 4
 
@@ -226,6 +230,7 @@ productIgnoreZeros([4, 0, 8, 3, 0]) // 96
 
 </details> 
 
+</br> 
 
 #### Challenge 5
 
@@ -247,6 +252,8 @@ productIgnoreZeros([4, 0, 8, 3, 0]) // 96
 
 </details> 
 
+</br> 
+
 #### Challenge 6 
 
 <details> 
@@ -267,6 +274,7 @@ productIgnoreZeros([4, 0, 8, 3, 0]) // 96
 
 </details> 
 
+</br> 
 
 #### Challenge 7
 
@@ -288,6 +296,7 @@ productIgnoreZeros([4, 0, 8, 3, 0]) // 96
 
 </details> 
 
+</br> 
 
 #### Challenge 8
 
@@ -310,6 +319,7 @@ productIgnoreZeros([4, 0, 8, 3, 0]) // 96
 
 </details> 
 
+</br> 
 
 #### Challenge 9
 
@@ -332,6 +342,7 @@ productIgnoreZeros([4, 0, 8, 3, 0]) // 96
 
 </details> 
 
+</br> 
 
 #### Challenge 10
 
@@ -354,6 +365,7 @@ productIgnoreZeros([4, 0, 8, 3, 0]) // 96
 
 </details> 
 
+</br> 
 
 ## Resources 
 
