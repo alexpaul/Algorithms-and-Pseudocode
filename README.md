@@ -195,12 +195,21 @@ productIgnoreZeros([4, 0, 8, 3, 0]) // 96
 
 #### Challenge 3
 
+All Ints appear twice in an array, but one element appears only once. Find the outlier.
+
+_Sample Input: [4,0,7,8,3,0,4,3,8]_  
+
+_Sample Output: 7_  
 
 <details> 
   <summary>Pseudocode Solution</summary> 
  
 <pre> 
-
+create a frequency dictionary to store number and the count of time it appears
+for each number in the array
+ store the number as the key in the frequency dictionary and increment the count of times it appears
+search the dictionary for the key that has a count of 1
+return the key
 </pre> 
   
 </details> 
@@ -210,6 +219,22 @@ productIgnoreZeros([4, 0, 8, 3, 0]) // 96
   <summary>Code Solution</summary> 
  
 ```swift 
+func outlier(_ arr: [Int]) -> Int? {
+  var freqDict = [Int: Int]()
+  for num in arr {
+    if let count = freqDict[num] {
+      freqDict[num] = count + 1
+    } else {
+      freqDict[num] = 1
+    }
+  }
+  for (key, value) in freqDict {
+    if value == 1 {
+      return key
+    }
+  }
+  return nil
+}
 ```
 
 </details> 
