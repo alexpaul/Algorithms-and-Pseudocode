@@ -243,11 +243,18 @@ func outlier(_ arr: [Int]) -> Int? {
 
 #### Challenge 4
 
+Write a function that returns whether an Array of Ints contains any numbers divisible by 13
+
+_Sample Input: Input: [4, 1, 13, 89, 3]_  
+_Sample Output: true_   
+
 <details> 
   <summary>Pseudocode Solution</summary> 
  
 <pre> 
-
+for each element in the array
+ check if the current number is divisible by 13
+   if true, return true
 </pre> 
   
 </details> 
@@ -257,6 +264,14 @@ func outlier(_ arr: [Int]) -> Int? {
   <summary>Code Solution</summary> 
  
 ```swift 
+func isDivibleBy13(_ arr: [Int]) -> Bool {
+  for num in arr {
+    if num % 13 == 0 {
+      return true
+    }
+  }
+  return false
+}
 ```
 
 </details> 
