@@ -2,7 +2,9 @@
 
 ## Algorithms 
 
-**Algorithms** are actions and steps or directions involved in solving a function of a program. 
+**Algorithms** are actions and steps or directions involved in solving a function or a part of a program. 
+
+In the example below if we are to use the example of making a cake, the algorithm wouuld be a series of steps as listed. 
 
 #### Example: How to Make a Cake  
 
@@ -22,6 +24,7 @@ Step 13: Assemble the Cake
 Step 14: Add the First Coat of Frosting  
 Step 15: Frost and Decorate  
 
+In this example if we are to describe to someone the algorithm to search a photo in a photo search application, the algorithm would be similar to the steps below. 
 
 #### Example: Search for a Photo from Pixabay 
 
@@ -38,7 +41,7 @@ Step 15: Frost and Decorate
 
 ## Pseudocode
 
-**Pseudcode** is a non-code way of explaining in "English" your thought process in attempting to solve a given problem. 
+**Pseudcode** is a non-code way of explaining in "English" your thought process in attempting to solve a given problem. We use psesudocode especially in interviews to show the interviewer our clearly defined methodology in solving and getting to a solution for a given problem. The more defined and clear the pseudocode the easier it will be to implement your solution in code. Let's go through an example below: 
 
 #### Example: Write a function to find the largest value in an array 
 
@@ -60,7 +63,7 @@ Some clarification questions can be:
 2. Can I return nil if the array is empty?
 
 <details>
-  <summary>Pseudocode above converted to compilable code.</summary>
+  <summary>Now that we have written the pseudocode, let's convert it to compilable Swift code.</summary>
   
 ```swift 
 func findLargest(_ arr: [Int]) -> Int? {
@@ -82,9 +85,9 @@ func findLargest(_ arr: [Int]) -> Int? {
 
 Write pseudocode for the following questions and convert your pseudocode to compilable code. 
 
-Reminder: 
+Reminder as you work through the challenges practice doing the following: 
 
-* Discuss clarification questions. 
+* Discuss clarification questions with your peer. 
 * Discuss runtime and space complexity of your solution. 
 
 </br> 
