@@ -133,119 +133,204 @@ countVowels("Hello there! How's it going?") // 8
 
 #### Challenge 2
 
-```swift 
-```
+Write a function that returns the product of an array of Ints with any zeros taken out
+
+_Sample Input: [4,0,8,3,0]_
+
+_Sample Output: 96_
+
 
 <details> 
-  <summary>Solution</summary> 
-  
+  <summary>Pseudocode Solution</summary> 
+ 
+<pre> 
+Input: array on Int 
+Output: Int 
 
+define and initialize a product variable to 1 
+for each element in the input array 
+  check if the current element is not zero 
+    if true, add to product 
+return product
+
+</pre> 
   
+</details> 
+
+
+<details> 
+  <summary>Code Solution</summary> 
+ 
+```swift 
+func productIgnoreZeros(_ arr: [Int]) -> Int {
+  var product = 1
+  for num in arr {
+    if num != 0 {
+      product *= num
+    }
+  }
+  return product
+}
+
+productIgnoreZeros([4, 0, 8, 3, 0]) // 96
+```
+
 </details> 
 
 
 #### Challenge 3
 
-```swift 
-```
 
 <details> 
-  <summary>Solution</summary> 
-  
+  <summary>Pseudocode Solution</summary> 
+ 
+<pre> 
 
+</pre> 
   
 </details> 
+
+
+<details> 
+  <summary>Code Solution</summary> 
+ 
+```swift 
+```
 
 
 #### Challenge 4
 
-```swift 
-```
-
 <details> 
-  <summary>Solution</summary> 
-  
+  <summary>Pseudocode Solution</summary> 
+ 
+<pre> 
 
+</pre> 
   
 </details> 
+
+
+<details> 
+  <summary>Code Solution</summary> 
+ 
+```swift 
+```
 
 
 #### Challenge 5
 
-```swift 
-```
-
 <details> 
-  <summary>Solution</summary> 
-  
+  <summary>Pseudocode Solution</summary> 
+ 
+<pre> 
 
+</pre> 
   
 </details> 
 
+
+<details> 
+  <summary>Code Solution</summary> 
+ 
+```swift 
+```
 
 #### Challenge 6 
 
-```swift 
-```
-
 <details> 
-  <summary>Solution</summary> 
-  
+  <summary>Pseudocode Solution</summary> 
+ 
+<pre> 
 
+</pre> 
   
 </details> 
+
+
+<details> 
+  <summary>Code Solution</summary> 
+ 
+```swift 
+```
 
 
 #### Challenge 7
 
-```swift 
-```
-
 <details> 
-  <summary>Solution</summary> 
-  
+  <summary>Pseudocode Solution</summary> 
+ 
+<pre> 
 
+</pre> 
   
 </details> 
+
+
+<details> 
+  <summary>Code Solution</summary> 
+ 
+```swift 
+```
 
 
 #### Challenge 8
 
-```swift 
-```
 
 <details> 
-  <summary>Solution</summary> 
-  
+  <summary>Pseudocode Solution</summary> 
+ 
+<pre> 
 
+</pre> 
   
 </details> 
+
+
+<details> 
+  <summary>Code Solution</summary> 
+ 
+```swift 
+```
 
 
 #### Challenge 9
 
-```swift 
-```
 
 <details> 
-  <summary>Solution</summary> 
-  
+  <summary>Pseudocode Solution</summary> 
+ 
+<pre> 
 
+</pre> 
   
 </details> 
+
+
+<details> 
+  <summary>Code Solution</summary> 
+ 
+```swift 
+```
 
 
 #### Challenge 10
 
-```swift 
-```
 
 <details> 
-  <summary>Solution</summary> 
-  
+  <summary>Pseudocode Solution</summary> 
+ 
+<pre> 
 
+</pre> 
   
 </details> 
+
+
+<details> 
+  <summary>Code Solution</summary> 
+ 
+```swift 
+```
 
 
 ## Resources 
