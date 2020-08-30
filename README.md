@@ -205,6 +205,9 @@ _Sample Output: 7_
   <summary>Pseudocode Solution</summary> 
  
 <pre> 
+Input: array of Int 
+Outpur: Int
+
 create a frequency dictionary to store number and the count of time it appears
 for each number in the array
  store the number as the key in the frequency dictionary and increment the count of times it appears
@@ -252,6 +255,9 @@ _Sample Output: true_
   <summary>Pseudocode Solution</summary> 
  
 <pre> 
+Input: array of In t
+Output: Bool 
+
 for each element in the array
  check if the current number is divisible by 13
    if true, return true
@@ -280,11 +286,22 @@ func isDivibleBy13(_ arr: [Int]) -> Bool {
 
 #### Challenge 5
 
+Write a function that reverses a String without using built-in reverse methods (i.e don't write ~.reversed()")
+
+_Sample Input: "swift rocks"_  
+_Sample Output: "skcor tfiws"_  
+
 <details> 
   <summary>Pseudocode Solution</summary> 
  
 <pre> 
+Input: String 
+Output: String 
 
+declare and initialize a new empty String 
+for each character in the input String 
+  append the current character to the front of the new String 
+return new reversed String 
 </pre> 
   
 </details> 
@@ -294,6 +311,13 @@ func isDivibleBy13(_ arr: [Int]) -> Bool {
   <summary>Code Solution</summary> 
  
 ```swift 
+func reverseString(_ inputString: String) -> String {
+  var newString = ""
+  for char in inputString {
+    newString = String(char) + newString
+  }
+  return newString
+}
 ```
 
 </details> 
