@@ -195,7 +195,7 @@ productIgnoreZeros([4, 0, 8, 3, 0]) // 96
 
 #### Challenge 3
 
-All Ints appear twice in an array, but one element appears only once. Find the outlier.
+All Ints appear twice in an array, but one element appears only once. Write a function to find the outlier.
 
 _Sample Input: [4,0,7,8,3,0,4,3,8]_  
 
