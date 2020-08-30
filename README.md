@@ -41,7 +41,7 @@ In this example if we are to describe to someone the algorithm to search a photo
 
 ## Pseudocode
 
-**Pseudcode** is a non-code way of explaining in "English" your thought process in attempting to solve a given problem. We use psesudocode especially in interviews to show the interviewer our clearly defined methodology in solving and getting to a solution for a given problem. The more defined and clear the pseudocode the easier it will be to implement your solution in code. Let's go through an example below: 
+**Pseudcode** is a non-code way of explaining in "English" your thought process towards solving a problem. We use psesudocode especially in interviews to show the interviewer our clearly defined methodology in solving and getting to a solution for a given problem. The more defined and clear the pseudocode the easier it will be to implement your solution in code. Let's go through an example below: 
 
 #### Example: Write a function to find the largest value in an array 
 
