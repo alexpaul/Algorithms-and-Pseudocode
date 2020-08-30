@@ -45,8 +45,8 @@ In this example if we are to describe to someone the algorithm to search a photo
 
 #### Example: Write a function to find the largest value in an array 
 
-_Example Input: [4, 1, -89, 23]_
-_Example Output: 23_
+_Example Input: [4, 1, -89, 23]_   
+_Example Output: 23_  
 
 Pseudocode
 
