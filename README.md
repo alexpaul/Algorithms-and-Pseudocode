@@ -124,6 +124,8 @@ func countVowels(_ inputString: String) -> Int {
   }
   return vowelCounter
 }
+
+countVowels("Hello there! How's it going?") // 8
 ```
   
 </details> 
