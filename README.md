@@ -42,6 +42,8 @@ Step 15: Frost and Decorate
 
 #### Write a function to find the largest value in an array 
 
+Pseudocode
+
 <pre> 
 Input: array of Int
 Output: return an Int
@@ -53,6 +55,9 @@ check if the current number is greater than the largest variable
 return largest
 </pre> 
 
+Some clarification questions can be:
+1. Can the array be empty? 
+2. Can I return nil if the array is empty?
 
 ## Resources 
 
