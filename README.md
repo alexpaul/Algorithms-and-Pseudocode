@@ -80,18 +80,47 @@ func findLargest(_ arr: [Int]) -> Int? {
 
 ## Challenge
 
-Write pseudocode for the following questions: 
-
+Write pseudocode for the following questions and convert your pseudocode to compilable code: 
 
 #### Challenge 1 
 
-```swift 
-```
+Write a function that returns how many vowels are in a String
 
 <details> 
-  <summary>Solution</summary> 
+  <summary>Pseudocode Solution</summary> 
   
+<pre> 
+Input: String 
+Output: Int 
 
+exmaple: "alex" => 2 
+
+declare and initialize a constant Set vowels that has the vowels "aeiou"
+declare and initialize a vowel counter
+for each Character in the String 
+  check if the current Character is contained in the Set, vowels 
+    if true, increment the vowel counter variable by one 
+return the vowel counter 
+</pre>
+  
+</details> 
+
+
+<details> 
+  <summary>Code Solution</summary> 
+  
+```swift 
+func countVowels(_ inputString: String) -> Int {
+  let vowels: Set<Character> = Set("aeiou")
+  var vowelCounter = 0
+  for char in inputString {
+    if vowels.contains(char) {
+      vowelCounter += 1
+    }
+  }
+  return vowelCounter
+}
+```
   
 </details> 
 
