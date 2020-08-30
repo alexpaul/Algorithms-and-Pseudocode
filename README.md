@@ -197,6 +197,8 @@ productIgnoreZeros([4, 0, 8, 3, 0]) // 96
 ```swift 
 ```
 
+</details> 
+
 
 #### Challenge 4
 
@@ -215,6 +217,8 @@ productIgnoreZeros([4, 0, 8, 3, 0]) // 96
  
 ```swift 
 ```
+
+</details> 
 
 
 #### Challenge 5
@@ -235,6 +239,8 @@ productIgnoreZeros([4, 0, 8, 3, 0]) // 96
 ```swift 
 ```
 
+</details> 
+
 #### Challenge 6 
 
 <details> 
@@ -252,6 +258,8 @@ productIgnoreZeros([4, 0, 8, 3, 0]) // 96
  
 ```swift 
 ```
+
+</details> 
 
 
 #### Challenge 7
@@ -271,6 +279,8 @@ productIgnoreZeros([4, 0, 8, 3, 0]) // 96
  
 ```swift 
 ```
+
+</details> 
 
 
 #### Challenge 8
@@ -292,6 +302,8 @@ productIgnoreZeros([4, 0, 8, 3, 0]) // 96
 ```swift 
 ```
 
+</details> 
+
 
 #### Challenge 9
 
@@ -312,6 +324,8 @@ productIgnoreZeros([4, 0, 8, 3, 0]) // 96
 ```swift 
 ```
 
+</details> 
+
 
 #### Challenge 10
 
@@ -331,6 +345,8 @@ productIgnoreZeros([4, 0, 8, 3, 0]) // 96
  
 ```swift 
 ```
+
+</details> 
 
 
 ## Resources 
