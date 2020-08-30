@@ -86,6 +86,10 @@ Write pseudocode for the following questions and convert your pseudocode to comp
 
 Write a function that returns how many vowels are in a String
 
+_Sample Input: "Hello there! How's it going?"_
+
+_Sample Output: 8_
+
 <details> 
   <summary>Pseudocode Solution</summary> 
   
