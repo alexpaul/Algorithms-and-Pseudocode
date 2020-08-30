@@ -59,6 +59,141 @@ Some clarification questions can be:
 1. Can the array be empty? 
 2. Can I return nil if the array is empty?
 
+## Challenge
+
+Write pseudocode for the following questions: 
+
+
+#### Challenge 1 
+
+```swift 
+```
+
+<details> 
+  <summary>Solution</summary> 
+  
+
+  
+</details> 
+
+
+#### Challenge 2
+
+```swift 
+```
+
+<details> 
+  <summary>Solution</summary> 
+  
+
+  
+</details> 
+
+
+#### Challenge 3
+
+```swift 
+```
+
+<details> 
+  <summary>Solution</summary> 
+  
+
+  
+</details> 
+
+
+#### Challenge 4
+
+```swift 
+```
+
+<details> 
+  <summary>Solution</summary> 
+  
+
+  
+</details> 
+
+
+#### Challenge 5
+
+```swift 
+```
+
+<details> 
+  <summary>Solution</summary> 
+  
+
+  
+</details> 
+
+
+#### Challenge 6 
+
+```swift 
+```
+
+<details> 
+  <summary>Solution</summary> 
+  
+
+  
+</details> 
+
+
+#### Challenge 7
+
+```swift 
+```
+
+<details> 
+  <summary>Solution</summary> 
+  
+
+  
+</details> 
+
+
+#### Challenge 8
+
+```swift 
+```
+
+<details> 
+  <summary>Solution</summary> 
+  
+
+  
+</details> 
+
+
+#### Challenge 9
+
+```swift 
+```
+
+<details> 
+  <summary>Solution</summary> 
+  
+
+  
+</details> 
+
+
+#### Challenge 10
+
+```swift 
+```
+
+<details> 
+  <summary>Solution</summary> 
+  
+
+  
+</details> 
+
+
 ## Resources 
 
 1. [How to make a cake](https://www.bhg.com/recipes/how-to/bake/how-to-make-a-cake/)
