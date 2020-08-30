@@ -4,7 +4,7 @@
 
 **Algorithms** are actions and steps or directions involved in solving a function of a program. 
 
-#### How to Make a Cake  
+#### Example: How to Make a Cake  
 
 Step 1: Choose a Recipe  
 Step 2: Choose the Right Baking Pans  
@@ -23,7 +23,7 @@ Step 14: Add the First Coat of Frosting
 Step 15: Frost and Decorate  
 
 
-#### Search for a Photo from Pixabay 
+#### Example: Search for a Photo from Pixabay 
 
 1. Step 1 Write an API Client class 
 2. Setp 2 Write a function within that class
@@ -40,7 +40,7 @@ Step 15: Frost and Decorate
 
 **Pseudcode** is a non-code way of explaining in "English" your thought process in attempting to solve a given problem. 
 
-#### Write a function to find the largest value in an array 
+#### Example: Write a function to find the largest value in an array 
 
 Pseudocode
 
