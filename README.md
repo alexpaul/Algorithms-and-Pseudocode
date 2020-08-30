@@ -1,5 +1,7 @@
 # Algorithms and Pseudocode
 
+## Algorithms 
+
 **Algorithms** are actions and steps or directions involved in solving a function of a program. 
 
 #### How to Make a Cake  
@@ -33,6 +35,8 @@ Step 15: Frost and Decorate
 8. Step 8 Use JSONDecoder to parse the received Data to the Swift model e.g Photo 
 9. Step 9 Return the Photo to the caller
 
+
+## Pseudocode
 
 **Pseudcode** is a non-code way of explaining in "English" your thought process in executing a giving algorithm. 
 
