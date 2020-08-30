@@ -80,7 +80,12 @@ func findLargest(_ arr: [Int]) -> Int? {
 
 ## Challenge
 
-Write pseudocode for the following questions and convert your pseudocode to compilable code: 
+Write pseudocode for the following questions and convert your pseudocode to compilable code. 
+
+Reminder: 
+
+* Discuss clarification questions. 
+* Discuss runtime and space complexity of your solution. 
 
 #### Challenge 1 
 
