@@ -369,7 +369,7 @@ Explanation: "testemail@leetcode.com" and "testemail@lee.tcode.com" actually rec
 * All local and domain names are non-empty.
 * Local names do not start with a `'+'` character.
 
-[LeetCode](https://leetcode.com/problems/unique-email-addresses/)
+[LeetCode - Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/)
 
 <details> 
   <summary>Pseudocode Solution</summary> 
@@ -422,97 +422,6 @@ func parseLocalName(_ localName: String) -> String {
   }
   return modifiedName
 }
-```
-
-</details> 
-
-</br> 
-
-#### Challenge 7
-
-<details> 
-  <summary>Pseudocode Solution</summary> 
- 
-<pre> 
-
-</pre> 
-  
-</details> 
-
-
-<details> 
-  <summary>Code Solution</summary> 
- 
-```swift 
-```
-
-</details> 
-
-</br> 
-
-#### Challenge 8
-
-
-<details> 
-  <summary>Pseudocode Solution</summary> 
- 
-<pre> 
-
-</pre> 
-  
-</details> 
-
-
-<details> 
-  <summary>Code Solution</summary> 
- 
-```swift 
-```
-
-</details> 
-
-</br> 
-
-#### Challenge 9
-
-
-<details> 
-  <summary>Pseudocode Solution</summary> 
- 
-<pre> 
-
-</pre> 
-  
-</details> 
-
-
-<details> 
-  <summary>Code Solution</summary> 
- 
-```swift 
-```
-
-</details> 
-
-</br> 
-
-#### Challenge 10
-
-
-<details> 
-  <summary>Pseudocode Solution</summary> 
- 
-<pre> 
-
-</pre> 
-  
-</details> 
-
-
-<details> 
-  <summary>Code Solution</summary> 
- 
-```swift 
 ```
 
 </details> 
