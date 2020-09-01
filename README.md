@@ -4,7 +4,7 @@
 
 **Algorithms** are a series of steps involved in solving a function or a part of a program. The efficiency of a chosen algorithm is calculated using [Big O notation](https://github.com/alexpaul/Big-O-Notation), namely runtime and space complexity. 
 
-** Data Structures** is the construct you choose to use to store the data of your algorithm. Example will you be using an array to store the ingredients for your awesome cake algorithm below or use a Set.  
+**Data Structures** is the construct you choose to use to store the data of your algorithm. Example will you be using an array to store the ingredients for your awesome cake algorithm below or use a Set.  
 
 #### Example: How to Make a Cake 
 
