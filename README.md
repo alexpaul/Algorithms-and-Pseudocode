@@ -38,7 +38,7 @@ In this example if we are to describe to someone the algorithm to search a photo
 
 ## Pseudocode
 
-**Pseudcode** is a non-code way of explaining in "English" your thought process towards solving a problem. We use pseudocode, especially in interviews to show the interviewer our clearly defined methodology in solving and getting to a solution for a given problem. The more defined and clear the pseudocode the easier it will be to implement your solution in code. Let's go through an example below: 
+**Pseudcode** is a non-code way of explaining in "English" your thought process towards solving a problem. We use pseudocode, especially in interviews to document to the interviewer our clearly defined methodology in solving and getting to a solution for a given problem. The more defined and clear the pseudocode the easier it will be to implement your solution in code. Let's go through an example below: 
 
 #### Example: Write a function to find the largest value in an array 
 
@@ -323,12 +323,12 @@ func reverseString(_ inputString: String) -> String {
 
 #### Challenge 6 
 
-Do the following: 
+Here we have a LeetCode problem that involves more content to a problem. In pseudocoding and coming up with a solution, do the following: 
 
-1. Read through the question and make your notes as needed. 
+1. Read through the question and make your own notes in your IDE as needed, e.g Xcode or [Repl.it](https://repl.it/~). 
 2. Check the **Note** section for clarification questions. 
 3. Pseudocode an algorithm for your proposed solution. 
-4. Covert your pseudocode to a working solution. 
+4. Convert your pseudocode to a working solution. 
 
 Every email consists of a local name and a domain name, separated by the @ sign.
 
@@ -427,4 +427,6 @@ func parseLocalName(_ localName: String) -> String {
 
 ## Resources 
 
-1. [How to make a cake](https://www.bhg.com/recipes/how-to/bake/how-to-make-a-cake/)
+1. [HackerRank - Big O](https://www.youtube.com/watch?v=v4cd1O4zkGw&list=LL&index=26&t=17s)
+2. [HackerRank - Solving Algorithms](https://www.youtube.com/watch?v=GKgAVjJxh9w&list=LL&index=27&t=0s)
+3. [How to make a cake](https://www.bhg.com/recipes/how-to/bake/how-to-make-a-cake/)
