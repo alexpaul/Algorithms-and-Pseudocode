@@ -326,40 +326,59 @@ func reverseString(_ inputString: String) -> String {
 
 #### Challenge 6 
 
-<pre>
+
 Every email consists of a local name and a domain name, separated by the @ sign.
 
-For example, in alice@leetcode.com, alice is the local name, and leetcode.com is the domain name.
+For example, in `alice@leetcode.com`, `alice` is the local name, and `leetcode.com` is the domain name.
 
-Besides lowercase letters, these emails may contain '.'s or '+'s.
+Besides lowercase letters, these emails may contain `'.'`s or `'+'`s.
 
-If you add periods ('.') between some characters in the local name part of an email address, mail sent there will 
-be forwarded to the same address without dots in the local name.  For example, "alice.z@leetcode.com" and
-"alicez@leetcode.com" forward to the same email address.  (Note that this rule does not apply for domain names.)
+If you add periods (`'.'`) between some characters in the **local name** part of an email address, mail sent there will 
+be forwarded to the same address without dots in the local name.  For example, `"alice.z@leetcode.com"` and
+`"alicez@leetcode.com"` forward to the same email address.  (Note that this rule does not apply for domain names.)
 
-If you add a plus ('+') in the local name, everything after the first plus sign will be ignored. This allows 
-certain emails to be filtered, for example m.y+name@email.com will be forwarded to my@email.com. 
+If you add a plus (`'+'`) in the **local name**, everything after the first plus sign will be **ignored**. This allows 
+certain emails to be filtered, for example `m.y+name@email.com` will be forwarded to `my@email.com`. 
 (Again, this rule does not apply for domain names.)
 
 It is possible to use both of these rules at the same time.
 
-Given a list of emails, we send one email to each address in the list.  How many different addresses 
+Given a list of `emails`, we send one email to each address in the list.  How many different addresses 
 actually receive mails? 
 
  
+**Example 1:**
 
-Example 1:
-
+<pre>
 Input: ["test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"]
 Output: 2
 Explanation: "testemail@leetcode.com" and "testemail@lee.tcode.com" actually receive mails
 </pre>
 
+**Note:**
+
+* `1 <= emails[i].length <= 100`
+* `1 <= emails.length <= 100`
+* Each `emails[i]` contains exactly one `'@'` character.
+* All local and domain names are non-empty.
+* Local names do not start with a `'+'` character.
+
 <details> 
   <summary>Pseudocode Solution</summary> 
  
 <pre> 
+Pseudocode
 
+Input: array of String
+Output: Int
+
+declare and initialize a Set, uniqueEmails variable that will hold unique emails
+for each email in emails
+ separate the email by the "@" into a local and domain name
+ use a helper function that returns the parsed local name
+ create a new email using the parsed local name and the domain name
+ insert this new email to the unique Set collection
+return the unique emails count
 </pre> 
   
 </details> 
@@ -369,6 +388,32 @@ Explanation: "testemail@leetcode.com" and "testemail@lee.tcode.com" actually rec
   <summary>Code Solution</summary> 
  
 ```swift 
+func uniqueEmailAddresses(_ emails: [String]) -> Int {
+  var uniqueEmails: Set<String> = []
+  for email in emails {
+    let localNameAndDomainName = email.components(separatedBy: "@")
+    guard let localName = localNameAndDomainName.first,
+      let domainName = localNameAndDomainName.last else { return 0 }
+    let  modifiedLocalName = parseLocalName(localName)
+    let newEmail = "\(modifiedLocalName)@\(domainName)"
+    uniqueEmails.insert(newEmail)
+  }  
+  return uniqueEmails.count
+}
+
+func parseLocalName(_ localName: String) -> String {
+  var modifiedName = ""
+  for char in localName {
+    if char == "+" {
+      return modifiedName
+    }
+    if char == "." {
+      continue
+    }
+    modifiedName.append(char)
+  }
+  return modifiedName
+}
 ```
 
 </details> 
