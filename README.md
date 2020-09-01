@@ -326,10 +326,7 @@ func reverseString(_ inputString: String) -> String {
 
 #### Challenge 6 
 
-<details> 
-  <summary>Pseudocode Solution</summary> 
- 
-<pre> 
+<pre>
 Every email consists of a local name and a domain name, separated by the @ sign.
 
 For example, in alice@leetcode.com, alice is the local name, and leetcode.com is the domain name.
@@ -351,6 +348,13 @@ Example 1:
 Input: ["test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"]
 Output: 2
 Explanation: "testemail@leetcode.com" and "testemail@lee.tcode.com" actually receive mails
+</pre>
+
+<details> 
+  <summary>Pseudocode Solution</summary> 
+ 
+<pre> 
+
 </pre> 
   
 </details> 
