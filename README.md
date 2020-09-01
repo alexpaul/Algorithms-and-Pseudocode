@@ -28,12 +28,12 @@ Step 15: Frost and Decorate
 
 In this example if we are to describe to someone the algorithm to search a photo in a photo search application, the algorithm would be similar to the steps below. 
 
-1. Step 1 Create an endpoint URL String to the photo Web API.  
-2. Step 2 Create a URL using the endpoint URL String 
-3. Step 3 Use the URLSesson class to make the network request. 
-4. Step 4 Check and handle any errors returned from teh respsonse.  
-5. Step 5 Use JSONDecoder to parse the received Data to the Swift model e.g Photo 
-6. Step 6 Return the Photo to the caller
+1. Create an endpoint URL String to the photo Web API.  
+2. Create a URL using the endpoint URL String.
+3. Use the URLSesson class to make the network request. 
+4. Check and handle any errors returned from teh respsonse.  
+5. Use JSONDecoder to parse the received Data to the Swift model e.g Photo.
+6. Return the Photo to the caller.
 
 
 ## Pseudocode
