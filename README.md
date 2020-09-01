@@ -90,6 +90,7 @@ Write pseudocode for the following questions and convert your pseudocode to comp
 Reminder as you work through the challenges practice doing the following: 
 
 * Discuss clarification questions with your peer. 
+* Discuss the data structure you will use and any tradeoffs it make have. 
 * Discuss runtime and space complexity of your solution. 
 
 </br> 
