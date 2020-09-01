@@ -8,7 +8,7 @@
 
 #### Example: How to Make a Cake 
 
-In the example below for making a cake, the algorithm wouuld be a series of steps as listed. 
+In the example below for making a cake, the algorithm would be a series of steps as listed. 
 
 Step 1: Choose a Recipe  
 Step 2: Choose the Right Baking Pans  
