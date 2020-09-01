@@ -326,6 +326,12 @@ func reverseString(_ inputString: String) -> String {
 
 #### Challenge 6 
 
+Read the following: 
+
+1. Read through the question and make your notes as needed. 
+2. Check the **Note** section for clarification questions. 
+3. Pseudocode an algorithm for your proposed solution. 
+4. Covert your pseudocode to a working solution. 
 
 Every email consists of a local name and a domain name, separated by the @ sign.
 
@@ -362,6 +368,8 @@ Explanation: "testemail@leetcode.com" and "testemail@lee.tcode.com" actually rec
 * Each `emails[i]` contains exactly one `'@'` character.
 * All local and domain names are non-empty.
 * Local names do not start with a `'+'` character.
+
+[LeetCode](https://leetcode.com/problems/unique-email-addresses/)
 
 <details> 
   <summary>Pseudocode Solution</summary> 
