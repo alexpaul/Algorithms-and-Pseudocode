@@ -432,4 +432,5 @@ func parseLocalName(_ localName: String) -> String {
 
 1. [HackerRank - Big O](https://www.youtube.com/watch?v=v4cd1O4zkGw&list=LL&index=26&t=17s)
 2. [HackerRank - Solving Algorithms](https://www.youtube.com/watch?v=GKgAVjJxh9w&list=LL&index=27&t=0s)
+3. [What's it like to interview at Pinterst](https://medium.com/pinterest-engineering/what-its-like-to-interview-at-pinterest-e40f05a018f9)
 3. [How to make a cake](https://www.bhg.com/recipes/how-to/bake/how-to-make-a-cake/)
