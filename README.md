@@ -326,7 +326,7 @@ func reverseString(_ inputString: String) -> String {
 
 #### Challenge 6 
 
-Read the following: 
+Do the following: 
 
 1. Read through the question and make your notes as needed. 
 2. Check the **Note** section for clarification questions. 
