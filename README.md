@@ -431,11 +431,24 @@ func parseLocalName(_ localName: String) -> String {
 ## Resources 
 
 #### Video 
+
 1. [HackerRank - Big O](https://www.youtube.com/watch?v=v4cd1O4zkGw&list=LL&index=26&t=17s)
 2. [HackerRank - Solving Algorithms](https://www.youtube.com/watch?v=GKgAVjJxh9w&list=LL&index=27&t=0s)
 
 #### Articles 
+
 1. [What's it like to interview at Pinterst](https://medium.com/pinterest-engineering/what-its-like-to-interview-at-pinterest-e40f05a018f9)
 2. [How to make a cake](https://www.bhg.com/recipes/how-to/bake/how-to-make-a-cake/)
 3. [Using STDIN for inputs and STDOUT for outputs](https://support.hackerrank.com/hc/en-us/articles/219617888-Using-STDIN-for-inputs-and-STDOUT-for-outputs)
+
+#### Online IDEs 
+
+1. [repl.it](https://repl.it/~)
+2. [coderpad.io](https://coderpad.io/)
+
+#### Coding Challenges 
+
+1. [LeetCode](https://leetcode.com/)
+1. [HackerRank](https://www.hackerrank.com/dashboard)
+
 
